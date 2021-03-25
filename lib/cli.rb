@@ -4,6 +4,7 @@ class CLI
     #control the flow of your project 
     def start
         puts "Welcome"
+        API.search_breweries
     end
 
 end
